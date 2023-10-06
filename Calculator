@@ -1,0 +1,38 @@
+internal class Assignment
+{
+    public static int Subtract(int a, int b)
+    {
+        int result = a - b;
+        return result;
+    }
+    public static int Add(int a, int b)
+    {
+        int result = a + b;
+        return result;
+    }
+    public static int Multiply(int a, int b)
+    {
+        int result = a * b;
+        return result;
+    }
+    public static float Divide(float a, float b)
+    {
+        float result = a / b;
+        return result;
+    }
+
+    public static void Main(string[] args)
+    {
+        int AddResult = Add(13, 5); 
+        Console.WriteLine(AddResult);
+        
+        int SubtractResult = Subtract(13, 5); 
+        Console.WriteLine(SubtractResult);
+        
+        float DivideResult = Divide(13, 5); 
+        Console.WriteLine(DivideResult);
+        
+        int MultiplyResult = Multiply(13, 5); 
+        Console.WriteLine(MultiplyResult);
+    }
+}
